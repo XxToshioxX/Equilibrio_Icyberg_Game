@@ -21,4 +21,8 @@ public class Mudar_Cena : MonoBehaviour
     {
         SceneManager.LoadScene(CarregarCena);
     }
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
